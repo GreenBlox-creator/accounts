@@ -34,7 +34,7 @@ form.addEventListener("submit", async (e) => {
       await signInWithEmailAndPassword(auth, email, password);
     }
     // ✅ Przekierowanie po zalogowaniu
-    window.location.href = "https://greentube.example.com";
+    window.location.href = "https://greenblox-creator.github.io/greentube/";
   } catch (err) {
     errorEl.textContent = err.message;
   }
